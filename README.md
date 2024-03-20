@@ -14,8 +14,6 @@
     <ul style="list-style-type: none; padding: 0;">
       <li>Array Questions</li>
       <li>Continue...</li>
-      <li>..</li>
-      <li>.</li>
     </ul>
     <h2 style="color: #007bff;">🎉 Introduction</h2>
     <p>LeetCode is a fantastic platform for honing your coding skills and preparing for technical interviews. This repository is your go-to resource for understanding and mastering various LeetCode problems. We provide clear solutions, insightful explanations, and thorough analysis to help you grasp the underlying concepts.</p>
@@ -36,8 +34,7 @@
     </ol>
     <h2 style="color: #007bff;">🤝 Contributing</h2>
     <p>We value your contributions! Whether you have a new solution, optimizations, or improvements, we welcome your input. Please ensure your code adheres to our coding standards and includes detailed explanations and analysis.</p>
-    <h2 style="color: #007bff;">📝 License</h2>
-    <p>This project is licensed under the MIT License. See the <a href="LICENSE" style="color: #007bff;">LICENSE</a> file for details.</p>
+   
   </div>
 
 </body>
