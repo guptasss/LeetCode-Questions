@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LeetCode Problem Solving</title>
+  
 </head>
 <body style="font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background-color: #f8f9fa; color: #333;">
 
@@ -19,7 +19,7 @@
     <h2 style="color: #007bff;">📁 Folder Structure</h2>
     <p>Our repository is neatly organized for easy navigation:</p>
     <pre>
-              ...
+             Keep Growing 🔥🔥🔥
     </pre>
     <p>Each problem category contains individual solution files named after the problem title. Dive into the folder of your choice to explore solutions and learn new techniques.</p>
     <h2 style="color: #007bff;">🛠️ How to Use</h2>
