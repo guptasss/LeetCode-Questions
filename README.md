@@ -12,7 +12,10 @@
     <p>Welcome to our LeetCode problem-solving repository! Here, we tackle coding interview questions from LeetCode with comprehensive solutions, explanations, and analysis.</p>
     <h2 style="color: #007bff;">📚 Table of Contents</h2>
     <ul style="list-style-type: none; padding: 0;">
-      <li></li>
+      <li>Array Questions</li>
+      <li>Continue...</li>
+      <li>..</li>
+      <li>.</li>
     </ul>
     <h2 style="color: #007bff;">🎉 Introduction</h2>
     <p>LeetCode is a fantastic platform for honing your coding skills and preparing for technical interviews. This repository is your go-to resource for understanding and mastering various LeetCode problems. We provide clear solutions, insightful explanations, and thorough analysis to help you grasp the underlying concepts.</p>
