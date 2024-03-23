@@ -7,29 +7,28 @@
 // @lc code=start
 class Solution {
 public:
-    void helper(int index, int target, vector<int>&candidates, vector<vector<int>>&ans, vector<int>&ds){
-        
-        if(target == 0){
-            ans.push_back(ds);
-            return;
+ 
+    int firstMissingPositive(vector<int>& nums) 
+    {
+        int n{(int)nums.size()};
+        int idx{};
+        while(idx < n)
+        {
+            int correctPos = nums[idx];
+            if(correctPos > 0 && correctPos <= n && nums[idx] != nums[correctPos-1])
+                swap(nums[idx], nums[correctPos-1]);
+            else
+                idx++;
         }
-        for(int i = index; i< candidates.size(); i++){
-            if(candidates[i] > target) break; 
-            if(i > index && candidates[i] == candidates[i-1])
-                continue;
-                
-            ds.push_back(candidates[i]);
-            helper(i+1, target- candidates[i], candidates, ans, ds); 
-            ds.pop_back();
+        idx = 0;
+        while(idx < n)
+        {
+            if(nums[idx] != idx + 1)
+                return idx + 1;
+            idx++;
         }
         
-    }
-    vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
-        sort(candidates.begin(), candidates.end());
-        vector<vector<int>>ans;
-        vector<int>ds;
-        helper(0, target, candidates, ans, ds);
-        return ans;
+        return idx + 1;
     }
 };
 // @lc code=end
